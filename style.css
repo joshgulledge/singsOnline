@@ -1,6 +1,16 @@
 body {
   background-color: #9ba4b4;
   color: #f1f6f9;
+  text-align: center;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 
 .header {
@@ -22,11 +32,32 @@ body {
   font-size:18px;
 }
 
+.left-side {
+  float:left;
+  text-align:left;
+  margin: 10 px;
+  padding: 10px;
+  border: solid black 2px;
+}
+
+.right-side {
+  float:right;
+  text-align:left;
+  margin: 5px;
+  margin-top: 35px;
+  padding:10px;
+  border: solid black 2px;
+  
+}
+
+#user-info {
+  clear:both;
+  color:black;
+  padding: 5px;
+  text-align: center;
+  
+}
 
 img {
   width: 75%;
-}
-
-ul {
-  
 }
