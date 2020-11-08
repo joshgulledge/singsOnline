@@ -1,2 +1,2 @@
 # singsOnline
-practice site for a sign shop
+practice site for a fictional sign shop
